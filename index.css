@@ -1,0 +1,97 @@
+body{
+    /* background-color: rgb(189, 248, 228); */
+    background-image: linear-gradient(rgb(189, 237, 194),rgb(186, 246, 226));
+
+}
+
+.college{
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(112, 111, 111);
+}
+
+
+.teacher{
+    /* font-family: 'Roboto Slab', serif; */
+font-family: 'Tilt Neon';
+background-color: rgb(107, 200, 169);
+border-radius: 3%;
+padding: 2%;
+
+display: inline-block;
+/* border: 1px solid rgb(62, 197, 62); */
+box-shadow:5px 5px rgb(101, 192, 161);
+
+position: relative;
+left: 2%;
+margin-right: 10%;
+
+ 
+}
+
+.teacher:hover{
+    background-color: rgb(57, 193, 147);
+}
+
+.displayDiv{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(57, 193, 147);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 1cqh;
+    
+}
+
+
+.edit{
+    float: right;
+    /* display: flex; */
+    /* align-items: center; */
+    display: inline-block;
+    margin-right: 8%;
+    margin-top: 15%;
+    width: 8%;
+
+
+}
+
+
+.edit .btn{
+    width: 150%;
+    margin: 2%;
+    background-color: rgb(115, 199, 199);
+    color: rgb(236, 241, 240);
+    font-size: medium;
+}
+
+
+.division{
+    margin-top: 5%;
+    margin-bottom: 4%;
+    position: relative;
+left: 2%;
+}
+
+.tableHead{
+
+    font-size: large;
+    font-style:inherit;
+    background-color:  rgb(57, 193, 147);
+    
+}
+
+
+.table{
+    border: 2px solid rgb(67, 208, 128);  
+    margin-left: 2%;
+    margin-right: 10%;
+    /* position: absolute;
+    bottom: 10%; */
+}
+
+td{
+    border: 2px solid rgb(67, 208, 128);  
+
+    text-align: center;
+}
